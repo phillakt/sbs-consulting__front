@@ -1,0 +1,68 @@
+.banner {
+    &-header {
+    }
+
+    &__skew {
+        &__6 {
+            transform: skew(-6deg);
+
+            span {
+                display: inline-flex;
+                transform: skew(6deg);
+            }
+        }
+    }
+
+    &__orange-line {
+        &::before {
+            content: "";
+            position: absolute;
+            bottom: 25px;
+            left: 0;
+            width: 5px;
+            height: 50%;
+            background: #ff9000;
+        }
+    }
+
+    .clip-path__right_95 {
+        position: relative;
+        clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);
+    }
+
+    &-interviews-with-leaders-bg {
+        background: url("../images/layers/Interviews/banner-header/Interviews-with-leaders-bg.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    // about/
+    &-management-bg {
+        background: url("../images/layers/about/banner-header/about-bg.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    // services/
+    &-services-bg {
+        background: url("../images/layers/services/banner-header/services-bg.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    // industry/
+    &-industry-bg {
+        background: url("../images/layers/industry/banner-header/industry-bg.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    // why/
+    &-why-bg {
+        background: url("../images/layers/why/banner-header/why-bg.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+}

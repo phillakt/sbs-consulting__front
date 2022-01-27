@@ -1,0 +1,21 @@
+.ul {
+    padding-left: 30px;
+
+    li.square {
+        position: relative;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 10%;
+            left: -25px;
+            width: 7px;
+            height: 7px;
+            background: #134ca2;
+        }
+    }
+
+    li.square.blue {
+        background: #134ca2;
+    }
+}

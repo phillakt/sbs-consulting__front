@@ -1,0 +1,98 @@
+.link {
+    text-decoration: none;
+    
+    &:hover {
+        text-decoration: none;
+    }
+
+    &__download {
+    }
+
+    &__color {
+        &_blue {
+            color: #1d7fb2;
+        }
+        &_dark-blue {
+            color: #1D3577;
+        }
+    }
+
+    &__numbered {
+        &_blue-light {
+            color: #333;
+            text-decoration: none;
+
+            &:hover {
+                color: #134ca2;
+                text-decoration: underline;
+            }
+        }
+    }
+
+    &-bnt-default {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        transition: all .3s ease-in-out;
+
+        &_orange {
+            text-transform: uppercase;
+            background: #FE8F00;
+            align-items: center;
+            transform: skew(-9deg);
+            padding: 12px 40px;
+            border-bottom: 2px solid #FE8F00;
+
+            &:hover {
+                background: #fe8f00a6;
+                border-bottom: 2px solid #FE8F00;
+            }
+
+            &:focus {
+                background: #fe8f00a6;
+                border-bottom: 2px solid #FE8F00;
+            }
+
+            &:active {
+                background: #fe8f00a6;
+                border-bottom: 2px solid #FE8F00;
+            }
+
+            &:visited {
+                background: #fe8f00a6;
+                border-bottom: 2px solid #FE8F00;
+            }
+
+            span {
+                color: #fff;
+                transform: skew(9deg);
+            }
+        }
+    }
+
+    &-default {
+        
+        &_blue {
+            display: inline-flex;
+            transition: all .3s ease-in-out;
+            color: #1D3577;
+
+            &:hover {
+                color: #1D3577;
+            }
+
+            &:focus {
+                color: #1D3577;
+            }
+
+            &:active {
+                color: #1D3577;
+            }
+
+            &:visited {
+                color: #1D3577;
+            }
+        }
+    }
+}

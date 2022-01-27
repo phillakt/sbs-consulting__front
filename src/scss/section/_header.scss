@@ -1,0 +1,40 @@
+
+.header {
+    border-bottom: 1px solid #afbfc754;
+    
+    &__link_phone {
+        transition: all .3s ease;
+
+        &:hover {
+            color: #e0101b;
+            text-decoration: none;
+        }
+    }
+
+    &__social a {
+        transition: all .3s ease;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    @media (max-width: 768px) {
+
+        .row.fai-c {
+            align-items: flex-start;
+        }
+
+        &__social {
+            display: none;
+        }
+
+        &__link_phone {
+            font-size: 14px;
+        }
+
+        .fs-11 {
+            font-size: 9px;
+        }
+    }
+}

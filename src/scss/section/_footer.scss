@@ -1,0 +1,25 @@
+
+.footer {
+
+    @media (max-width: 768px) {
+        margin-bottom: 20px;
+
+
+        &__header {
+            text-align: center;
+        }
+    }
+
+    &__link {
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    .tar, .tal {
+        @media (max-width: 768px) {
+            text-align: center;
+        }
+    }
+}
